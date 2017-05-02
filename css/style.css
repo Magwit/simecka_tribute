@@ -1,0 +1,43 @@
+#dadiv {
+  max-width: 1200;
+  margin: 0 auto;
+  padding: 10%; 
+  background-color: Linen;
+}
+
+h1,
+h2,
+blockquote p {
+  font-family: 'PT Serif Caption', sans-serif;
+  font-weight: normal;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+}
+
+p {
+  font-size: 16px;
+}
+
+.jumbotron {
+  background-color: gainsboro;
+  margin-bottom: -5%;
+  height: 95vh;
+}
+
+.bigimage {
+  max-width: 1200;
+  background-image: url(https://rawgit.com/Magwit/thumbnails/master/milan_on_the_phone.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.front-title {
+  background: rgba(255, 160, 122, 0.8);
+  position: relative;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
